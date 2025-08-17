@@ -1,0 +1,74 @@
+.must-read-section {
+  background-color: #FFF5EE;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.must-read-title {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: -12px;
+  margin-bottom: 25px;
+  margin-left: 70px;
+  display: flex;
+
+}
+
+.must-read-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.must-read-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.must-read-post-image {
+  flex: 1;
+  margin-right: 250px;
+  
+}
+
+.must-read-post-image img {
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  margin-left: -170px;
+  
+  
+}
+
+.must-read-post-content {
+  flex: 2;
+}
+
+.must-read-post-content h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: -309px;
+}
+
+.must-read-post-content p {
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-right: -309px;
+}
+
+
+a {
+  color: rgb(0, 0, 0); /* Change link color */
+  text-decoration: none; /* Add underline to link */
+}
+
+a:hover {
+  color: rgb(125, 33, 33); /* Change link color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}

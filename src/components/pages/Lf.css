@@ -1,0 +1,26 @@
+.blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .blog-post {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .blog-post.full-width {
+    width: 100%;
+  }
+  
+  .blog-post .blog-post-image img {
+    width: 100%;
+    height: auto;
+  }
+  

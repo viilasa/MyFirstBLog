@@ -1,0 +1,98 @@
+/* lifestyle.css */
+
+/* Container */
+.ls-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title-size {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title-size h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Posts container */
+.ls-posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Post */
+.ls-post {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Post image */
+.ls-post-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Post content */
+.ls-post-content {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.ls-post-content h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ls-post-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.ls-post-content a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.ls-post-content a:hover {
+  color: #555;
+}
+
+/* Read more button */
+.read-more-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+  background-color: #45a049;
+}

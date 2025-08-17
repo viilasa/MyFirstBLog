@@ -1,0 +1,40 @@
+.blog-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .articles {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .article {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .article h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .article p {
+    margin-bottom: 0;
+    color: #666;
+  }
+  
+  .article-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  

@@ -1,0 +1,47 @@
+
+.finance-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.finance-posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.finance-post {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.finance-post img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.finance-post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.finance-post-description {
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Add margin to the footer */
+.footer {
+  margin-top: 20px;
+}

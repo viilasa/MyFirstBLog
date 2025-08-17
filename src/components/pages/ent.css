@@ -1,0 +1,48 @@
+/* ent.css */
+
+.blog-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 62px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.articles {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.article {
+  background-color: #ffffff;
+  padding: 80px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  line-height: 2.6;
+  color: #333333;
+}
+
+.article p:last-child {
+  margin-bottom: 0;
+}
